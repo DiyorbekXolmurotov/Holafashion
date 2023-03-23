@@ -1,0 +1,84 @@
+.sourse-section {
+    margin-top: 100px;
+}
+
+.product_title {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #91916C;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #91916C;
+    width: 288px;
+    margin-left: 500px;
+    padding-bottom: 30px;
+}
+.shop {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .product_title-tou {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 139%;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #E5A985;
+        width: 700px;
+    }
+
+    .bloger {
+        display: flex;
+        gap: 50px;
+        .fashion {
+            width: 351px;
+            height: 485px;
+            background: #FAE3D8;
+            border-radius: 20px;
+
+            .blog_text {
+                font-family: 'Nunito Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 138.5%;
+                text-align: center;
+                letter-spacing: 0.02em;
+                color: #000000;
+            }
+        }
+
+        .fashion_blog {
+            background: #91916C;
+            box-shadow: 10px 10px 35px 2px rgba(89, 56, 14, 0.1);
+            border-radius: 20px;
+            width: 387px;
+            height: 535px;
+
+            .bloger_text {
+                font-family: 'Nunito Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 138.5%;
+                text-align: center;
+                letter-spacing: 0.02em;
+                color: #FFFFFF;
+            }
+        }
+
+        // .Bloggers-year {
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: space-around;
+        // }
+    }
+}

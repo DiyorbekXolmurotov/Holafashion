@@ -1,0 +1,100 @@
+.four-section  .container {
+    margin-top: 100px;
+    padding: 30px;
+    background: #FFEFE7;
+    .product_title {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 139%;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #91916C;
+        display: flex;
+        justify-content: center;
+        border-bottom: 3px solid #91916C;
+        width: 288px;
+        margin-left: 500px;
+        padding-bottom: 30px;
+    }
+
+    .shop {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .product_title-tou {
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 139%;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #65653E;
+            max-width: 700px;
+        }
+
+        .jeton {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            .karter {
+                gap: 20px;
+                display: flex;
+                .imgs {
+                    gap: 20px;
+                    display: flex;
+                    .karter_text {
+                        font-family: 'Nunito Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 171.5%;
+                        letter-spacing: 0.02em;
+                        color: #333333;
+                        width: 201px;
+                    }
+                }
+            }
+
+            .vulqon {
+                gap: 20px;
+                display: flex;
+                .imgs {
+                    gap: 20px;
+                    display: flex;
+                    .karter_text {
+                        font-family: 'Nunito Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 171.5%;
+                        letter-spacing: 0.02em;
+                        color: #333333;
+                        width: 201px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.havo_title {
+    padding: 30px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #91916C;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #91916C;
+    width: 288px;
+    margin-left: 650px;
+    margin-bottom: 50px;
+}

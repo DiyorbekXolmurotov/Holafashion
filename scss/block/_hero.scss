@@ -1,0 +1,47 @@
+.hero {
+    display: flex;
+    gap: 58px;
+    .complect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .hero_title {
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 139%;
+            letter-spacing: 0.02em;
+            color: #E5A985;
+        }
+
+        .hero_text {
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 171%;
+            letter-spacing: 0.02em;
+            color: #4A4747;
+            margin-bottom: 60px;
+        }
+
+        .hero_form {
+            .hero_input {
+                background: #E5E5E5;
+                border-radius: 8px 0px 0px 8px;
+                width: 465px;
+                height: 58px;
+                border: none;
+            }
+
+            .hero_button {
+                border: none;
+                width: 160px;
+                height: 58px;
+                background: #91916C;
+                border-radius: 0px 8px 8px 0px;
+            }
+        }
+    }
+}

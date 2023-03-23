@@ -1,0 +1,30 @@
+.block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+    .nav {
+        .nav_list {
+            display: flex;
+            gap: 70px;
+            .nav_item {
+                list-style-type: none;
+                .nav_link {
+                    text-decoration: none;
+                    font-family: 'Nunito Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 27px;
+                    color: #000000;
+
+                    &:hover {
+                        transition: 0.25s ease;
+                        color: #91916C;
+                    }
+                }
+            }
+        }
+    }
+}
